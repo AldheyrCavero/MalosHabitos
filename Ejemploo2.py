@@ -1,3 +1,4 @@
+
 def calcular_suma_producto(multiplicador, sumando, aditivo):
 
     resultado_producto = multiplicador * sumando

@@ -10,7 +10,7 @@ def solicitar_entrada(mensaje):
         return valor
     except ValueError:
         print("Entrada no válida. Por favor, ingrese un número.")
-        return solicitar_entrada(mensaje)  # Llamada recursiva para volver a pedir el valor
+        return solicitar_entrada(mensaje)
 
 def main():
 
